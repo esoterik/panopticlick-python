@@ -3,7 +3,7 @@ import hashlib
 from time import time
 
 from db import Db
-from fingerprint_helper import FingerprintHelper
+from .fingerprint_helper import FingerprintHelper
 from util import get_ip_hmacs
 
 
